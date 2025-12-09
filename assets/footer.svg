@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="90" viewBox="0 0 520 90" role="img" aria-label="Footer Card">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="40%" stop-color="#ff7a18"/>
+      <stop offset="60%" stop-color="#ffb86b"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <style><![CDATA[
+      @keyframes shimmer { 0% { opacity: .55; } 50% { opacity: 1; } 100% { opacity: .55; } }
+      .s { animation: shimmer 3.3s ease-in-out infinite; }
+    ]]></style>
+  </defs>
+  <rect width="520" height="90" rx="16" fill="#0b0f14" stroke="#1f2937"/>
+  <rect x="28" y="22" width="464" height="2" fill="url(#g)" class="s"/>
+  <text x="260" y="58" text-anchor="middle"
+        font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas"
+        font-size="13" fill="#8b949e">
+    Build. Measure. Ship. Iterate.
+  </text>
+</svg>
